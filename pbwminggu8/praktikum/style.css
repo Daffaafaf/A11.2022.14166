@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    padding: 35px;
+    text-align: center;
+    background-color: rgb(69, 69, 69);
+    border: 2px solid rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+}
+
+nav{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    padding: 8px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(198, 211, 23);
+    margin-top: 0px;
+}
+
+nav ul li a{
+    display: block;
+    color: rgb(84, 84, 84);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: rgb(205, 197, 197);
+    color: white;
+}
+article{
+    float: left;
+    width: 80%;
+    padding:0 2px;
+    border: 2px solid rgb(137, 149, 148);
+}
+.satu{
+    color: rgb(182, 34, 61);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dua{
+    color: rgb(182, 34, 61);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer{
+    text-align: center;
+}
